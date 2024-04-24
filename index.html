@@ -1,13 +1,23 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="en" class="dark min-h-screen">
+<head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Official Website of High School Sports Results and Stats</title>
-  </head>
-  <body>
+    <title>Official Website of High School Sports Results and Stats</title>
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <!-- Include Tailwind CSS -->
+    <link href="/path/to/tailwind.css" rel="stylesheet">
+</head>
+<body class="bg-white dark:bg-black bg-cover bg-center bg-no-repeat min-h-screen" style="background-image: url('./src/assets/image_.png');">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-  </body>
+</body>
 </html>
